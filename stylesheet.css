@@ -1,0 +1,45 @@
+body{
+    font-family: monospace;
+    margin-left:25%;
+    margin-right:25%;
+    margin-top: 20%;
+    user-select: none;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.top-bar{
+    width: auto;
+    display: flex;
+    background-color: black;
+    color: white;
+    font-size:20px;
+    justify-content: left;
+}
+.window{
+    border:1px solid;
+    width: 100%;
+    height: auto;
+}
+.icon{
+    padding-left: 10px;
+    margin-right: 25%;
+}
+.text-field{
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+    padding-top:0px;
+    padding-bottom: 25%;
+    font-size:80px;
+}
+@media (max-width:670px) {
+    .titlebar{
+        font-size:15px;
+        text-align: center;
+    }
+    .text-field{
+        font-size:40px;
+    }
+}
